@@ -1,41 +1,31 @@
-# Astro & Tailwind CSS Starter Kit by lexingtonthemes.com
-# License
+# Site oficial - Panoram Digital (by André Melo)
+# Licença
 
-This template is open-source software licensed under the [GPL-3.0 license](https://opensource.org/licenses/GPL-3.0). Feel free to fork, modify, and use it in your projects.# License
+Esse modelo é criado para uso comercial, sendo permitido para servir de base para projetos pessoais - mas não responsabilizado por suporte a esses projetos.
 
-## Need an attribution-free version?
+## Esse modelo utiliza Tailwind CSS V4
 
-Checkout [Lexington Themes](https://lexingtonthemes.com/) for free and premium multipage themes & UI Kits
-For freelancers, developers, businesses, and personal use.
-Beautifully crafted with Astro.js, and Tailwind CSS — Simple & easy to customise.
-
-## Before using this template publicly, please ensure you remove my name and any links associated with me from the website.
-
-
-## This template is using Tailwind CSS V4
-
-Now we are using only a CSS file. It's called `global.css` and it's located in the src/styles folder. Now we are eimporting Tailwind CSS on the same file instead of using the `tailwind.config.cjs` file. Like this:
+Agora estamos utilizando o TailwindCSS V4 Beta, por meio do arquivo `global.css`, localizado em 'src/styles. Nenhum outro arquivo específico para o tailwind se faz mais necessárrio
 
 ```css
-// Importing Tailwind CSS
+// Importando Tailwind CSS
 @import "tailwindcss";
-// Importing Tailwind plugins
+// Importando Tailwind plugins
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
 ```
 
-Then to add your styles you will use the @theme directive. Like this:
+Tente adicionar seus estilos na diretiva do tema:
 
 ```css
 @theme {
-  /* Your CSS goes here, see how styles are written on the global.css file */
+  /* Seu CSS deve estar escrito aqui. */
 }
 ```
 
-Remember this is just in Alpha version, so you can use it as you want. Just keep an eye on the changes that Tailwind CSS is going to make.
-## Template Structure
+## Estrutura de projeto
 
-Inside of your Astro project, you'll see the following folders and files:
+O projeto segue a seguinte estrutura do Astro.
 
 ```
 /
@@ -45,26 +35,3 @@ Inside of your Astro project, you'll see the following folders and files:
 │       └── index.astro
 └── package.json
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## Want to learn more?
-
-Feel free to check Astros [documentation](https://docs.astro.build)

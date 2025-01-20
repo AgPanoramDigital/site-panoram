@@ -1,9 +1,12 @@
+@import url(/public/satoshi/css/satoshi.css);
 @import "tailwindcss";
-@plugin "@tailwindcss/forms";
-@plugin "@tailwindcss/typography";
+/* @plugin "@tailwindcss/forms";
+   @plugin "@tailwindcss/typography"; 
+   @view-transition { navigation: auto; } 
+*/
 
 @theme {
-  --font-sans: "Inter", sans-serif;
+  --font-sans: "Satoshi", sans-serif;
   --font-display: "Gilda Display", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   /* Colors */
@@ -18,6 +21,11 @@
   --color-blue-800: #03026f;
   --color-blue-900: #020137;
   --color-blue-950: #01001e;
+
+  --color-card-1: oklch(62.35% 0.183 27.53);
+  --color-card-2: oklch(62.35% 0.089 213.88);
+  --color-card-3: oklch(62.35% 0.146 132.35);
+  --color-card-4: oklch(62.35% 0.163 49.76);
 }
 .font-display {
    font-family: var(--font-display);

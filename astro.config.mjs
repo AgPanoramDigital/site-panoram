@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
    vite: {
@@ -21,5 +23,5 @@ export default defineConfig({
     drafts: true
   },
   site: 'https://panoramdigital.com.br',
-  integrations: [sitemap(), mdx()]
+  integrations: [sitemap(), mdx(), react()]
 });

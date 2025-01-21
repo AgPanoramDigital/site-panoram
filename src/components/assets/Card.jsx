@@ -4,12 +4,9 @@ import Button from './Button';
 import ButtonSec from './ButtonSec';
 
 const Card = ({ card, id, progress, range, targetScale }) => {
-  const topValue = `calc(10% + ${id * 25}px)`;
+  const topValue = `calc(10% + ${id * 50}px)`;
   const scale = useTransform(progress, range, [1, targetScale]);
 
-  console.log('Card ID:', card.id);
-  console.log('Top Value:', topValue);
-  console.log('Scale:', scale);
 
   return (
     <motion.div

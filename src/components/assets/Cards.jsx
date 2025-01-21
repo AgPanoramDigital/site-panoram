@@ -28,13 +28,8 @@ const Cards = () => {
         const targetScale = 1 - (cardsData.length - index) * 0.05;
         const range = [index * 0.25, 1];
 
-        console.log('Card ID:', card.id);
-        console.log('Index:', index);
-        console.log('Target Scale:', targetScale);
-        console.log('Range:', range);
-
         return (
-          <Card
+          <Card client:load
             key={card.id}
             card={card}
             id={index}

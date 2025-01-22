@@ -1,0 +1,18 @@
+---
+import ButtonSec from './ButtonSec.jsx';
+
+const { title, description, image, url, classes } = Astro.props;
+---
+
+<div class={`tech bg-zinc-800/20 p-12 border border-solid border-zinc-100/10 rounded-md mt-10 flex flex-row justify-between items-center gap-20 ${classes}`}>
+    <div class="left w-1/2">
+        <h3 class="font-display text-3xl text-white">{ title }</h3>
+        <p class="text-white mt-4 mb-10">
+            { description }
+        </p>
+        <ButtonSec nameurl="Saiba mais" url={ url } />
+    </div>
+    <div class="right w-1/2">
+        <img src={ image } alt="Imagem Aleatória gerada." class="size-full object-cover rounded-sm">
+    </div>
+</div>

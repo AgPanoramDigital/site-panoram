@@ -27,12 +27,15 @@
   --color-card-3: oklch(62.35% 0.146 132.35);
   --color-card-4: oklch(62.35% 0.163 49.76);
 }
+
 .font-display {
-   font-family: var(--font-display);
+  font-family: var(--font-display);
 }
+
 .font-sans {
   font-family: var(--font-sans);
 }
+
 .font-mono {
   font-family: var(--font-mono);
 }
@@ -41,7 +44,9 @@
 :root {
   font-family: Inter, sans-serif;
 }
+
 @supports (font-variation-settings: normal) {
+
   /* Use variable font if supported */
   :root {
     font-family: InterVariable, sans-serif;
@@ -62,4 +67,10 @@
   --astro-code-token-link: #ffffff;
 }
 
+p {
+  font-family: var(--font-sans);
+}
 
+* {
+  @apply transition-all duration-300 ease-linear;
+}

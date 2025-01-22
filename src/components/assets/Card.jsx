@@ -9,7 +9,7 @@ const Card = ({ card, id, progress, range, targetScale }) => {
 
 
   return (
-    <motion.div
+    <motion.div client:load
       className={`service-card sticky flex flex-col gap-12 items-center justify-center p-12 rounded-xl ${card.bgClass}`}
       style={{ top: topValue, transform: `scale(${scale.get()})` }}
     >

@@ -23,7 +23,7 @@ const Cards = () => {
   console.log('scrollYProgress:', scrollYProgress);
 
   return (
-    <section ref={container} className="sticky top-0 h-full grid place-content-center gap-80 mt-[30dvh]">
+    <section ref={container} className="sticky top-0 h-full grid place-content-center gap-80 my-20">
       {cardsData.map((card, index) => {
         const targetScale = 1 - (cardsData.length - index) * 0.05;
         const range = [index * 0.25, 1];

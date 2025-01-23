@@ -1,0 +1,107 @@
+---
+const questions = [
+  {
+    question: "O que é o site?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "Como funciona?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "O que é o site?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "Como funciona?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "O que é o site?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "Como funciona?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "O que é o site?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "Como funciona?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "O que é o site?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "Como funciona?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "O que é o site?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+  {
+    question: "Como funciona?",
+    answer:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore obcaecati nulla magni veniam explicabo rem qui quidem rerum unde quo consequuntur asperiores dolorem, similique soluta architecto, voluptatum optio earum.",
+  },
+];
+---
+
+<style>
+  details {
+    overflow: hidden;
+    transition: max-height 0.5s linear;
+  }
+
+  details[open] {
+    max-height: 1000px; /* Ajuste conforme necessário */
+  }
+
+  details:not([open]) {
+    max-height: 60px; /* Altura do summary */
+  }
+
+  details[open] summary ~ * {
+    animation: openAnimation 0.3s ease-in-out;
+  }
+
+  @keyframes openAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<div class="faq-section *:text-white">
+  {
+    questions.map((q) => (
+      <details class="mb-4 p-4 border border-zinc-700/40 rounded-md h-auto transition-all duration-300 ease-in-out">
+        <summary class="font-semibold text-lg cursor-pointer h-auto transition-all duration-300 ease-in-out">
+          {q.question}
+        </summary>
+        <p class="mt-2 text-white/40">{q.answer}</p>
+      </details>
+    ))
+  }
+</div>

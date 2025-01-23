@@ -1,4 +1,5 @@
 # Site oficial - Panoram Digital (by André Melo)
+
 # Licença
 
 Esse modelo é criado para uso comercial, sendo permitido para servir de base para projetos pessoais - mas não responsabilizado por suporte a esses projetos.

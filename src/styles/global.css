@@ -46,7 +46,6 @@
 }
 
 @supports (font-variation-settings: normal) {
-
   /* Use variable font if supported */
   :root {
     font-family: InterVariable, sans-serif;
@@ -77,4 +76,8 @@ p {
 
 img {
   @apply pointer-events-none;
+}
+
+.swiper-wrapper {
+  width: fit-content;
 }

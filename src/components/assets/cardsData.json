@@ -1,50 +1,50 @@
 [
-    {
-      "id": 1,
-      "imageSrc": "https://picsum.photos/4000/1000?random=1",
-      "title": "Serviço X",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
-      "buttonUrl": "/servico",
-      "buttonText": "Quero Contratar!",
-      "buttonSecUrl": "/servico",
-      "buttonSecText": "Como isso pode me ajudar?",
-      "bgClass": "bg-card-3",
-      "topClass": "top-6"
-    },
-    {
-      "id": 2,
-      "imageSrc": "https://picsum.photos/4000/1000?random=2",
-      "title": "Serviço Y",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
-      "buttonUrl": "/servico",
-      "buttonText": "Quero Contratar!",
-      "buttonSecUrl": "/servico",
-      "buttonSecText": "Como isso pode me ajudar?",
-      "bgClass": "bg-card-4",
-      "topClass": "top-12"
-    },
-    {
-      "id": 3,
-      "imageSrc": "https://picsum.photos/4000/1000?random=3",
-      "title": "Serviço Z",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
-      "buttonUrl": "/servico",
-      "buttonText": "Quero Contratar!",
-      "buttonSecUrl": "/servico",
-      "buttonSecText": "Como isso pode me ajudar?",
-      "bgClass": "bg-card-1",
-      "topClass": "top-18"
-    },
-    {
-      "id": 4,
-      "imageSrc": "https://picsum.photos/4000/1000?random=4",
-      "title": "Serviço W",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
-      "buttonUrl": "/servico",
-      "buttonText": "Quero Contratar!",
-      "buttonSecUrl": "/servico",
-      "buttonSecText": "Como isso pode me ajudar?",
-      "bgClass": "bg-card-2",
-      "topClass": "top-24"
-    }
-  ]
+  {
+    "id": 1,
+    "imageSrc": "https://picsum.photos/4000/1000?random=1",
+    "title": "Serviço X",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
+    "buttonUrl": "/servico",
+    "buttonText": "Quero Contratar!",
+    "buttonSecUrl": "/servico",
+    "buttonSecText": "Como isso pode me ajudar?",
+    "bgClass": "bg-card-3",
+    "topClass": "top-6"
+  },
+  {
+    "id": 2,
+    "imageSrc": "https://picsum.photos/4000/1000?random=2",
+    "title": "Serviço Y",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
+    "buttonUrl": "/servico",
+    "buttonText": "Quero Contratar!",
+    "buttonSecUrl": "/servico",
+    "buttonSecText": "Como isso pode me ajudar?",
+    "bgClass": "bg-card-4",
+    "topClass": "top-12"
+  },
+  {
+    "id": 3,
+    "imageSrc": "https://picsum.photos/4000/1000?random=3",
+    "title": "Serviço Z",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
+    "buttonUrl": "/servico",
+    "buttonText": "Quero Contratar!",
+    "buttonSecUrl": "/servico",
+    "buttonSecText": "Como isso pode me ajudar?",
+    "bgClass": "bg-card-1",
+    "topClass": "top-18"
+  },
+  {
+    "id": 4,
+    "imageSrc": "https://picsum.photos/4000/1000?random=4",
+    "title": "Serviço W",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vitae eaque excepturi facere praesentium error. Distinctio tempora excepturi totam illo minus recusandae praesentium, nesciunt rerum modi debitis non error provident?",
+    "buttonUrl": "/servico",
+    "buttonText": "Quero Contratar!",
+    "buttonSecUrl": "/servico",
+    "buttonSecText": "Como isso pode me ajudar?",
+    "bgClass": "bg-card-2",
+    "topClass": "top-24"
+  }
+]

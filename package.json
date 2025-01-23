@@ -26,7 +26,8 @@
     "lenis": "^1.1.20",
     "motion": "^12.0.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0-beta.9",

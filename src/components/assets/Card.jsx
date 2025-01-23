@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import { motion, useTransform } from "motion/react";
-import Button from './Button';
-import ButtonSec from './ButtonSec';
+import Button from "./Button";
+import ButtonSec from "./ButtonSec";
 
 const Card = ({ card, id, progress, range, targetScale }) => {
   const topValue = `calc(10% + ${id * 50}px)`;
   const scale = useTransform(progress, range, [1, targetScale]);
 
-
   return (
-    <motion.div client:load
+    <motion.div
+      client:load
       className={`service-card sticky flex flex-col gap-12 items-center justify-center p-12 rounded-xl ${card.bgClass}`}
       style={{ top: topValue, transform: `scale(${scale.get()})` }}
     >
@@ -29,8 +29,8 @@ const Card = ({ card, id, progress, range, targetScale }) => {
           {card.description}
         </p>
         <div className="flex flex-row gap-4 mt-10">
-          <Button url={card.buttonUrl} nameurl={card.buttonText} />
-          <ButtonSec url={card.buttonSecUrl} nameurl={card.buttonSecText} />
+          <Button url={card.buttonUrl} title={card.buttonText} />
+          <ButtonSec url={card.buttonSecUrl} title={card.buttonSecText} />
         </div>
       </div>
     </motion.div>

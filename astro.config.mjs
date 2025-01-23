@@ -23,5 +23,6 @@ export default defineConfig({
     drafts: true,
   },
   site: "https://panoramdigital.com.br",
-  integrations: [sitemap(), mdx(), react({ experimentalReactChildren: true })],
+  // integrations: [sitemap(), mdx(), react({ experimentalReactChildren: true })],
+  integrations: [sitemap(), mdx(), react()],
 });

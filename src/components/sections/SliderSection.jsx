@@ -15,7 +15,7 @@ const SliderSection = ({ scrollYProgress }) => {
   return (
     <motion.section
       style={{ scale, rotate }}
-      className="bg-gradient-to-br from-zinc-900 to-black relative"
+      className="bg-gradient-to-br from-zinc-900 to-black h-screen relative"
     >
       <div className="container max-w-7xl w-full mx-auto p-4 py-20 flex h-screen justify-between items-center gap-20">
         <div className="content selectable flex flex-col justify-between h-auto max-w-3/5 w-full">

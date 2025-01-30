@@ -33,7 +33,7 @@ const SliderSection = ({ scrollYProgress }) => {
                 fill: "row",
                 rows: 2,
               }}
-              slidesPerView={3}
+              slidesPerView={2}
               watchSlidesProgress
               className="swiper mySwiper"
               effect="fade"
@@ -61,7 +61,7 @@ const SliderSection = ({ scrollYProgress }) => {
             </Swiper>
           </div>
         </div>
-        <div className="slider max-w-2/5 w-full shrink-0">
+        <div className="slider max-w-3/5 w-full shrink-0">
           <Swiper
             modules={[Thumbs, EffectFade]}
             className="swiper max-w-full mySwiper2"
@@ -70,34 +70,34 @@ const SliderSection = ({ scrollYProgress }) => {
           >
             <SwiperSlide>
               <img
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                src="../images/services/notebook-mockup-google.png"
                 alt="Nature 1"
                 loading="lazy"
-                className="w-full rounded-md"
+                className="w-full rounded-md mix-blend-multiply bg-blend-multiply"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://swiperjs.com/demos/images/nature-2.jpg"
+                src="../images/services/notebook-mockup-development.png"
                 alt="Nature 2"
                 loading="lazy"
-                className="w-full rounded-md"
+                className="w-full rounded-md mix-blend-multiply bg-blend-multiply"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://swiperjs.com/demos/images/nature-3.jpg"
+                src="../images/services/notebook-mockup-desing.png"
                 alt="Nature 3"
                 loading="lazy"
-                className="w-full rounded-md"
+                className="w-full rounded-md mix-blend-multiply bg-blend-multiply"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://swiperjs.com/demos/images/nature-4.jpg"
+                src="../images/services/notebook-mockup-social.png"
                 alt="Nature 4"
                 loading="lazy"
-                className="w-full rounded-md"
+                className="w-full rounded-md mix-blend-multiply bg-blend-multiply"
               />
             </SwiperSlide>
           </Swiper>

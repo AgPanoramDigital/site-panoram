@@ -5,6 +5,7 @@ import SliderSection from "../components/sections/SliderSection";
 
 const Perspective = () => {
   const container = useRef(null);
+  console.log(container);
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start start", "end end"],

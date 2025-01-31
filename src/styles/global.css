@@ -1,4 +1,5 @@
-@import url(/public/satoshi/css/satoshi.css);
+@import url(/public/fonts/exo-2/stylesheet.css);
+@import url(/public/fonts/red-hat-text/stylesheet.css);
 @import "tailwindcss";
 /* @plugin "@tailwindcss/forms";
    @plugin "@tailwindcss/typography"; 
@@ -6,8 +7,8 @@
 */
 
 @theme {
-  --font-sans: "Satoshi", sans-serif;
-  --font-display: "Gilda Display", sans-serif;
+  --font-sans: "Red Hat Text", sans-serif;
+  --font-display: "Exo 2", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   /* Colors */
   --color-blue-50: #ebebff;
@@ -41,16 +42,9 @@
 }
 
 /* CSS */
-:root {
+/* :root {
   font-family: Inter, sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  /* Use variable font if supported */
-  :root {
-    font-family: InterVariable, sans-serif;
-  }
-}
+} */
 
 :root {
   --astro-code-color-text: #000000;
@@ -76,8 +70,4 @@ p {
 
 img {
   @apply pointer-events-none;
-}
-
-.swiper-wrapper {
-  width: fit-content;
 }

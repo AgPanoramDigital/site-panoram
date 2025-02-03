@@ -11,7 +11,7 @@
     top: 0;
     position: sticky;
     overflow: hidden;
-    mask-image: url('images/svg/footer-mask.svg');
+    mask-image: url('/images/svg/footer-mask.svg');
     background-color: rebeccapurple;
     mask-position: 52.35% center;
     mask-size: 80%;

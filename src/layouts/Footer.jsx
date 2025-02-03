@@ -5,16 +5,16 @@ const Footer = () => {
   const container = useRef(null);
   const stickyMask = useRef(null);
 
-  const initialMaskSize = 0.8;
+  const initialMaskSize = 0.3;
 
-  const targetMaskSize = 80;
+  const targetMaskSize = 120;
 
   useEffect(() => {
     requestAnimationFrame(animate);
   }, []);
 
   const animate = () => {
-    const maskSizeProgress = targetMaskSize * getScrollProgress();
+    const maskSizeProgress = targetMaskSize * (getScrollProgress() + 0.005);
 
     stickyMask.current.style.webkitMaskSize =
       (initialMaskSize + maskSizeProgress) * 100 + "%";

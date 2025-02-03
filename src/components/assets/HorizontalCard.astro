@@ -5,16 +5,16 @@ const { title, description, image, url, classes } = Astro.props;
 ---
 
 <div
-  class={`tech bg-zinc-800/20 p-12 border border-solid border-zinc-100/10 rounded-md mt-10 flex flex-col md:flex-row justify-between items-center gap-20 ${classes}`}
+  class={`tech bg-zinc-800/20 p-8 md:p-12 border border-solid border-zinc-100/10 rounded-md mt-10 flex flex-col md:flex-row justify-between items-center gap-20 ${classes}`}
 >
-  <div class="left md:w-1/2">
+  <div class="left w-full md:w-1/2">
     <h3>{title}</h3>
     <p class="text-white mt-4 mb-10">
       {description}
     </p>
     <ButtonSec title="Saiba mais" url={url} />
   </div>
-  <div class="right md:w-1/2">
+  <div class="right w-full md:w-1/2">
     <img
       src={image}
       alt="Imagem Aleatória gerada."

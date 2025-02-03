@@ -38,6 +38,7 @@ const Footer = () => {
             <source
               src="/images/videos/footer-background.mp4"
               type="video/mp4"
+              loading="lazy"
             />
           </video>
         </div>

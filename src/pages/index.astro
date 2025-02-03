@@ -10,6 +10,7 @@ import Cases from "@/components/sections/Cases.astro";
 import Cta from "@/components/sections/Cta.astro";
 import CtaCenter from "@/components/sections/CtaCenter.astro";
 import Faq from "@/components/sections/Faq.astro";
+import Footer from "@/layouts/Footer.jsx";
 ---
 
 <BaseLayout>
@@ -23,4 +24,5 @@ import Faq from "@/components/sections/Faq.astro";
   </Parallax>
   <Form />
   <Faq />
+  <Footer client:load />
 </BaseLayout>

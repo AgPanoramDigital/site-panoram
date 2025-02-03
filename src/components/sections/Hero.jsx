@@ -16,9 +16,7 @@ const Hero = ({ scrollYProgress }) => {
           <span className="text-sm p-4 py-2 border border-solid rounded-full mb-4 block w-fit">
             EMPRESA GOOGLE PARTNER
           </span>
-          <h1 className="text-white font-display text-6xl md:text-8xl text-balance">
-            Explore o marketing com a Panoram Digital.
-          </h1>
+          <h1>Explore o marketing com a Panoram Digital.</h1>
           <p className="text-xl text-balance mt-4">
             Ajudamos a sua empresa a crescer com estratégias de marketing
             digital personalizadas.

@@ -20,7 +20,7 @@ const SliderSection = ({ scrollYProgress }) => {
       <div className="container max-w-7xl w-full mx-auto p-4 py-20 flex h-screen justify-between items-center gap-20">
         <div className="content selectable flex flex-col justify-between h-auto max-w-3/5 w-full">
           <div>
-            <h2 className="text-4xl text-white font-display">Serviços</h2>
+            <h2>Serviços</h2>
             <p className="text-white text-balance max-w-8/12 mt-4 mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -38,23 +38,23 @@ const SliderSection = ({ scrollYProgress }) => {
               className="swiper mySwiper"
               effect="fade"
             >
-              <SwiperSlide className="">
-                <div className="p-10 mt-4 mr-4 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+              <SwiperSlide className="group">
+                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="">
-                <div className="p-10 mt-4 mr-4 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+              <SwiperSlide className="group">
+                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="">
-                <div className="p-10 mt-4 mr-4 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+              <SwiperSlide className="group">
+                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="">
-                <div className="p-10 mt-4 mr-4 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+              <SwiperSlide className="group">
+                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>

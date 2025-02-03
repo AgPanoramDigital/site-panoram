@@ -1,5 +1,5 @@
-@import url(/public/fonts/exo-2/stylesheet.css);
-@import url(/public/fonts/red-hat-text/stylesheet.css);
+@import url(/fonts/exo-2/stylesheet.css);
+@import url(/fonts/red-hat-text/stylesheet.css);
 @import "tailwindcss";
 /* @plugin "@tailwindcss/forms";
    @plugin "@tailwindcss/typography"; 
@@ -68,6 +68,23 @@ p {
   @apply transition-all duration-300 ease-linear;
 }
 
+h1 {
+  @apply text-white font-display text-6xl md:text-8xl text-balance;
+}
+
+h2 {
+  @apply md:text-5xl text-4xl text-white font-display;
+}
+
+h3 {
+  @apply font-display text-2xl md:text-3xl text-white;
+}
+
 img {
   @apply pointer-events-none;
+}
+
+.swiper-slide-thumb-active>.p-10.mt-4.mr-4.rounded-md.text-white.bg-gradient-to-br.from-zinc-900 {
+  border-left: 4px solid #fff !important;
+  background-color: #d8d8d83a !important;
 }

@@ -1,98 +1,145 @@
 ---
-import { Image } from "astro:assets";
 import ButtonSec from "../assets/ButtonSec.jsx";
 import { Image } from "astro:assets";
 ---
 
 <section>
   <div class="container max-w-7xl w-full mx-auto p-4 py-20">
-    <div class="flex flex-row justify-between items-center">
-      <h2 class="font-display text-5xl text-center text-white mb-10">Cases</h2>
-      <ButtonSec title="Ver Todos" url="/cases" />
-    </div>
-    <div class="cases h-fit min-h-svh flex flex-col gap-80">
-      <div class="case sticky bg-[#060608] top-20">
-        <Image
-          inferSize={true}
-          class="rounded-sm"
-          src="https://picsum.photos/1600/500?random=1"
-          alt="Client Case Mockup 1"
-        />
-        <div
-          class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2"
-        >
-          <h3 class="font-display text-3xl leading-none">Case 1</h3>
-          <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+    <div class="cases h-fit flex flex-col">
+      <div class="flex flex-row justify-between items-center sticky top-18">
+        <h2 class="font-display text-5xl text-center text-white mb-10">
+          Cases
+        </h2>
+        <ButtonSec title="Ver Todos" url="/cases" />
+      </div>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=1"
+            alt="Client Case Mockup 1"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
         </div>
       </div>
-      <div class="case sticky bg-[#060608] top-20">
-        <Image
-          inferSize={true}
-          class="rounded-sm"
-          src="https://picsum.photos/1600/500?random=2"
-          alt="Client Case Mockup 2"
-        />
-        <div
-          class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2"
-        >
-          <h3 class="font-display text-3xl leading-none">Case 1</h3>
-          <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=2"
+            alt="Client Case Mockup 2"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
         </div>
       </div>
-      <div class="case sticky bg-[#060608] top-20">
-        <Image
-          inferSize={true}
-          class="rounded-sm"
-          src="https://picsum.photos/1600/500?random=3"
-          alt="Client Case Mockup 3"
-        />
-        <div
-          class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2"
-        >
-          <h3 class="font-display text-3xl leading-none">Case 1</h3>
-          <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=3"
+            alt="Client Case Mockup 3"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
         </div>
       </div>
-      <div class="case sticky bg-[#060608] top-20">
-        <Image
-          inferSize={true}
-          class="rounded-sm"
-          src="https://picsum.photos/1600/500?random=4"
-          alt="Client Case Mockup 4"
-        />
-        <div
-          class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2"
-        >
-          <h3 class="font-display text-3xl leading-none">Case 1</h3>
-          <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=4"
+            alt="Client Case Mockup 4"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
         </div>
       </div>
-      <div class="case sticky bg-[#060608] top-20">
-        <Image
-          inferSize={true}
-          class="rounded-sm"
-          src="https://picsum.photos/1600/500?random=5"
-          alt="Client Case Mockup 5"
-        />
-        <div
-          class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2"
-        >
-          <h3 class="font-display text-3xl leading-none">Case 1</h3>
-          <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=4"
+            alt="Client Case Mockup 4"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
         </div>
       </div>
-      <div class="case sticky bg-[#060608] top-20">
-        <Image
-          inferSize={true}
-          class="rounded-sm"
-          src="https://picsum.photos/1600/500?random=6"
-          alt="Client Case Mockup 6"
-        />
-        <div
-          class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2"
-        >
-          <h3 class="font-display text-3xl leading-none">Case 1</h3>
-          <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=4"
+            alt="Client Case Mockup 4"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
+        <div class="case bg-[#060608]">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=4"
+            alt="Client Case Mockup 4"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="h-svh bg-[#060608] flex items-center justify-center flex-col sticky top-0"
+      >
+        <div class="case">
+          <Image
+            inferSize={true}
+            class="rounded-sm"
+            src="https://picsum.photos/1600/500?random=4"
+            alt="Client Case Mockup 4"
+          />
+          <div
+            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
+          >
+            <h3 class="font-display text-3xl leading-none">Case 1</h3>
+            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
         </div>
       </div>
     </div>

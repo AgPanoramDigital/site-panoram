@@ -11,7 +11,11 @@ const Perspective = () => {
     offset: ["start start", "end end"],
   });
   return (
-    <main ref={container} className="h-[200vh]  bg-zinc-800" id="hero-parallax">
+    <main
+      ref={container}
+      className="h-fit md:h-[200vh]  bg-zinc-800"
+      id="hero-parallax"
+    >
       <Hero scrollYProgress={scrollYProgress} />
       <SliderSection scrollYProgress={scrollYProgress} />
     </main>

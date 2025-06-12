@@ -39,22 +39,22 @@ const SliderSection = ({ scrollYProgress }) => {
               effect="fade"
             >
               <SwiperSlide className="group">
-                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+                <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="group">
-                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+                <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="group">
-                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+                <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="group">
-                <div className="p-10 mt-4 mr-4 group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
+                <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
                   <p>Lorem Ipsum</p>
                 </div>
               </SwiperSlide>

@@ -9,15 +9,32 @@ const Hero = ({ scrollYProgress }) => {
   return (
     <motion.section
       style={{ scale, rotate }}
-      className="bg-linear-45 from-blue-700 to-indigo-950 sticky top-0 h-screen grid place-items-center z-0"
+      className="relative h-screen w-full overflow-hidden z-0 bg-[#27272a]"
     >
-      <div className="container max-w-7xl mx-auto w-full flex flex-row justify-center items-center">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        muted
+        playsInline
+      >
+        <source
+          src="/images/videos/hero-home-background.mp4"
+          type="video/mp4"
+        />
+        Seu navegador não suporta vídeo.
+      </video>
+
+      {/* Conteúdo da Hero */}
+      <div className="relative z-10 container max-w-7xl mx-auto w-full h-full flex flex-row justify-center items-center">
         <div className="left p-4 text-white">
-          <span className="text-sm p-4 py-2 border border-solid rounded-full mb-4 block w-fit">
+          <span className="text-sm p-4 py-2 border border-white border-solid rounded-full mb-4 block w-fit">
             EMPRESA GOOGLE PARTNER
           </span>
-          <h1>Explore o marketing com a Panoram Digital.</h1>
-          <p className="text-xl text-balance mt-4">
+          <h1 className="text-4xl md:text-6xl leading-[0.9em]">
+            Explore o marketing com a Panoram Digital.
+          </h1>
+          <p className="text-xl mt-4 max-w-xl leading-[1.9em]">
             Ajudamos a sua empresa a crescer com estratégias de marketing
             digital personalizadas.
           </p>

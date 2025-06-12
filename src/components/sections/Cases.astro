@@ -1,6 +1,14 @@
 ---
 import ButtonSec from "../assets/ButtonSec.jsx";
 import { Image } from "astro:assets";
+
+// Imports de imagem otimizadas
+import CaseDm from "@/assets/images/cases/case-dm.png";
+import CaseOdonto from "@/assets/images/cases/case-odontolab.png";
+import CasePlurar from "@/assets/images/cases/case-plurar.png";
+import CaseSiteDm from "@/assets/images/cases/case-site-dm.png";
+import CaseSitePlurar from "@/assets/images/cases/case-site-plurar.png";
+import CaseTradeline from "@/assets/images/cases/case-tradeline.png";
 ---
 
 <section>
@@ -17,7 +25,7 @@ import { Image } from "astro:assets";
           <Image
             inferSize={true}
             class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=1"
+            src={CaseDm}
             alt="Client Case Mockup 1"
           />
           <div
@@ -33,7 +41,7 @@ import { Image } from "astro:assets";
           <Image
             inferSize={true}
             class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=2"
+            src={CaseOdonto}
             alt="Client Case Mockup 2"
           />
           <div
@@ -49,7 +57,7 @@ import { Image } from "astro:assets";
           <Image
             inferSize={true}
             class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=3"
+            src={CasePlurar}
             alt="Client Case Mockup 3"
           />
           <div
@@ -65,7 +73,7 @@ import { Image } from "astro:assets";
           <Image
             inferSize={true}
             class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=4"
+            src={CaseSiteDm}
             alt="Client Case Mockup 4"
           />
           <div
@@ -81,7 +89,7 @@ import { Image } from "astro:assets";
           <Image
             inferSize={true}
             class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=4"
+            src={CaseSitePlurar}
             alt="Client Case Mockup 4"
           />
           <div
@@ -97,41 +105,7 @@ import { Image } from "astro:assets";
           <Image
             inferSize={true}
             class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=4"
-            alt="Client Case Mockup 4"
-          />
-          <div
-            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
-          >
-            <h3 class="font-display text-3xl leading-none">Case 1</h3>
-            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
-          </div>
-        </div>
-      </div>
-      <div class="h-svh flex items-center justify-center flex-col sticky top-0">
-        <div class="case bg-[#060608]">
-          <Image
-            inferSize={true}
-            class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=4"
-            alt="Client Case Mockup 4"
-          />
-          <div
-            class="content text-white flex flex-row justify-between items-end gap-4 p-4 mt-2 w-full"
-          >
-            <h3 class="font-display text-3xl leading-none">Case 1</h3>
-            <p class="font-light">Lorem Ipsum Dolor Sit Amet</p>
-          </div>
-        </div>
-      </div>
-      <div
-        class="h-svh bg-[#060608] flex items-center justify-center flex-col sticky top-0 z-30"
-      >
-        <div class="case">
-          <Image
-            inferSize={true}
-            class="rounded-sm"
-            src="https://picsum.photos/1600/500?random=4"
+            src={CaseTradeline}
             alt="Client Case Mockup 4"
           />
           <div

@@ -1,30 +1,35 @@
 ---
 import BaseHead from "@/components/BaseHead.astro";
+import Preloader from "@/components/global/Preloader.astro";
 import Navigation from "@/components/global/Navigation.astro";
 import Footer from "@/components/global/Footer.astro";
-import 'lenis/dist/lenis.css'
+import "lenis/dist/lenis.css";
 ---
 
 <html lang="pt-BR">
   <head>
     <BaseHead />
   </head>
-  <body class="bg-linear-45/oklch from-zinc-950 to-black flex flex-col min-h-screen">
+  <body
+    class="bg-linear-45/oklch from-zinc-950 to-black flex flex-col min-h-screen"
+  >
+    <Preloader />
     <Navigation />
     <main class="flex-grow"><slot /></main>
     <Footer />
-    <script is:inline src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script> 
+    <script is:inline src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"
+    ></script>
     <script is:inline>
-        // Initialize Lenis
-        const lenis = new Lenis();
+      // Initialize Lenis
+      const lenis = new Lenis();
 
-        // Use requestAnimationFrame to continuously update the scroll
-        function raf(time) {
-          lenis.raf(time);
-          requestAnimationFrame(raf);
-        }
-
+      // Use requestAnimationFrame to continuously update the scroll
+      function raf(time) {
+        lenis.raf(time);
         requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
     </script>
   </body>
 </html>

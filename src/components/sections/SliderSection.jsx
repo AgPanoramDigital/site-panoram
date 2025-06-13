@@ -20,10 +20,10 @@ const SliderSection = ({ scrollYProgress }) => {
       <div className="container max-w-7xl w-full mx-auto p-4 py-20 flex flex-col md:flex-row h-fit md:h-screen justify-between items-center gap-20">
         <div className="content selectable flex flex-col justify-between h-auto md:max-w-3/5 w-full">
           <div>
-            <h2>Serviços</h2>
+            <h2>Soluções que conectam seu cliente ao seu negócio!</h2>
             <p className="text-white text-balance max-w-8/12 mt-4 mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Alavanque seus resultados com serviços pensados para gerar
+              performance, atrair o público certo e aumentar suas vendas.
             </p>
           </div>
           <div className="cards-grid w-full">
@@ -35,27 +35,27 @@ const SliderSection = ({ scrollYProgress }) => {
               }}
               slidesPerView={2}
               watchSlidesProgress
-              className="swiper mySwiper"
+              className="swiper mySwiper overscroll-none"
               effect="fade"
             >
               <SwiperSlide className="group">
                 <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
-                  <p>Lorem Ipsum</p>
+                  <p>Gestão de Tráfego Pago</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="group">
                 <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
-                  <p>Lorem Ipsum</p>
+                  <p>Criação de Sites e Landing Pages</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="group">
                 <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
-                  <p>Lorem Ipsum</p>
+                  <p>Branding & Design</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="group">
                 <div className="p-10 mt-4 mr-4 hover:border-l-2 hover:border-l-white group-has['.swiper-slide-thumb-active']:bg-red-300 rounded-md text-white bg-gradient-to-br from-zinc-900 to-black/20 border border-solid border-zinc-800/50">
-                  <p>Lorem Ipsum</p>
+                  <p>SEO & Social Media</p>
                 </div>
               </SwiperSlide>
             </Swiper>
